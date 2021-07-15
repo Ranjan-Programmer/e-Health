@@ -1,0 +1,50 @@
+body{
+    background-color: lightgrey;
+}
+.content{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 30px;
+}
+.seprate{
+    display: flex;
+}
+.content img{
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    float: left;
+}
+.defination{
+    margin: 10px;
+}
+.watch{
+    padding: 5px 10px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.videos{
+    width: 560px;
+    height: 315px;
+    margin-left: 23%;
+    display: none;
+}
+#buttons{
+    position: relative;
+}
+#forPosition{
+    position: relative;
+    left: 0px;
+    display: none;
+}
+#forPositionTwo{
+    position: relative;
+    left: 0px;
+    display: none;
+}

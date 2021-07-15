@@ -1,0 +1,173 @@
+#news{
+width: 800px;
+height: auto;
+}
+.engNews{
+    text-align: justify;
+    margin-top: 2%;
+    background-color: lightgrey;
+}
+.cMar{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.more{
+    display: none;
+}
+.spacing{
+    line-height: 30px;
+}
+.headline{
+    margin: 20px 20px 0px 20px;
+    font-family: 'Lato', sans-serif;
+}
+.newsImg{
+    margin: 5px 15px 5px 20px;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+#content{
+    display: flex;
+    background-color: whitesmoke;
+}
+.ctnColor{
+    background-color: white;
+}
+#latestNews{
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    margin-top: 1.2%;
+}
+#moreHeadlines{
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    margin-top: 1.2%;
+}
+.extra{
+    text-align: center;
+    background-color: lightslategray;
+    padding: 10px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.extraSmall{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+#index table{
+    border: 1px solid black;
+}
+#moreHeadlines td {
+    padding: 3px;
+}
+#trending{
+    margin-top: 20px;
+}
+#index .extra{
+    background-color: #f83333;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+#index{
+    margin-top: 20px;
+}
+#index td{
+    border: 1px solid black;
+}
+#index th{
+    border: 1px solid black;
+}
+#highlight{
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+#highlight h4{
+    position: relative;             
+    top: 10px;
+    letter-spacing: 10px;
+}
+#followUs{
+    margin-top: 20px;
+}
+#followUs ul li a{
+    color: white;
+    font-size: 30px;
+    margin:10px;
+}
+#followUs ul li{
+    list-style: none;
+    background-color: #1bee5e;
+    padding: 5px;
+}
+#fiveImages{
+    width: 100%;
+    height: 56.5vh;
+    display: flex;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+#featureImg{
+    width: 49%;
+    height: 69vh;
+    background-image: url(../Images/three.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+#featureImg h2{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+#groupImg{
+    width: 50%;
+}
+#imageOne{
+    height: 27vh;
+    background-image: url(../Images/two.png);
+    margin: 0px 10px;
+}
+#imageOne h2{
+    position: absolute;
+    top: 110px;
+    padding: 10px;
+}
+#forTwoImg{
+    display: flex;
+}
+.fixMe{
+    width: 100%;
+    height: 27vh;
+    margin: 10px 10px;
+    position: relative;
+}
+#iAmOne{
+    background-image: url(../Images/one.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#iAmOne h3{
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+}
+#iAmTwo{
+    background-image: url(../Images/four.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#iAmTwo h3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+}
+.giveMeColor{
+    color: lemonchiffon;
+}
